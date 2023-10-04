@@ -1,0 +1,40 @@
+.contact-karkilaw {
+  position: fixed;
+  top: 17.3%;
+  right: 0;
+  background-color: white; /* Background color for the div */
+  color: #354c84; /* Text color */
+  z-index: 9999; /* Ensure it's on top of other content */
+}
+
+.contact-karkilaw #phone-karki {
+  margin: auto;
+}
+
+#phone-karki i {
+  color: white;
+  background-color: #354c84;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 7vh;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 7vh;
+}
+
+#phone-karki a {
+  text-decoration: none;
+  font-size: 1rem;
+  width: 12rem;
+  height: 7vh;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-karkilaw {
+    z-index: 400;
+    display: none;
+  }
+}
